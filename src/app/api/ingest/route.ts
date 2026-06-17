@@ -1,3 +1,4 @@
+import "pdf-parse/worker";
 import { NextRequest } from 'next/server';
 import { PDFParse } from 'pdf-parse';
 import { RecursiveCharacterTextSplitter } from '@langchain/textsplitters';
